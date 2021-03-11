@@ -1,0 +1,92 @@
+@font-face {
+  font-family: 'mulis';
+  src: url('../src/asset/fonts/font-mulis/Mulish-Regular.ttf');
+}
+
+* {
+  font-family: 'mulis';
+  text-decoration: none;
+  list-style: none;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  background: #fff;
+}
+
+.f-sm {
+  font-size: small;
+}
+
+.f-md {
+  font-size: 1em;
+}
+
+.f-lg {
+  font-size: 20px;
+}
+
+.f-xl {
+  font-size: 26px;
+}
+
+.f-weight {
+  font-weight: 600;
+}
+
+.color1 {
+  color: #5F2EEA;
+}
+
+.color2 {
+  color: #6E7191;
+}
+
+.color3 {
+  color: #DEDEDE;
+}
+
+.c-black {
+  color: #000;
+}
+
+.bg1 {
+  background: #5F2EEA;
+}
+
+.bg2 {
+  background: #6E7191;
+}
+
+.bg-fb {
+  color: #395185;
+}
+
+.line {
+  text-decoration: underline;
+}
+
+.btn-input {
+  color: #fff;
+  background: #5F2EEA;
+}
+
+.btn-input:hover {
+  color: #fff;
+  background: #7342fa !important;
+}
+
+.btn-shadow {
+  background: #fff;
+  border: 1px solid #DEDEDE;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+input.box {
+  font-size: 0.8em;
+  background: #FCFDFE;
+  border: 1px solid #DEDEDE;
+}
